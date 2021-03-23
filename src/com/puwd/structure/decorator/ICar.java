@@ -1,4 +1,4 @@
-package com.puwd.behavior.decorator;
+package com.puwd.structure.decorator;
 
 /**
  * 抽象产品
