@@ -12,6 +12,7 @@ public class Test {
         LeaveTicket leaveTicket = new LeaveTicket();
         leaveTicket.start();
         leaveTicket.commit();
+        leaveTicket.start();
         leaveTicket.reject();
         leaveTicket.check();
     }
