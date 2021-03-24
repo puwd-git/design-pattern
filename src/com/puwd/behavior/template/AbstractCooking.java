@@ -10,6 +10,9 @@ public abstract class AbstractCooking {
         add();
         waiting();
         up();
+        if(ifEat()){
+            eat();
+        }
     }
 
     public final void boil(){
@@ -22,5 +25,13 @@ public abstract class AbstractCooking {
 
     public final void up(){
         System.out.println("做好了起锅");
+    }
+
+    protected boolean ifEat(){
+        return true;
+    }
+
+    public final void eat(){
+        System.out.println("吃饭");
     }
 }

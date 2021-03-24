@@ -14,4 +14,9 @@ public class RiceCooking extends AbstractCooking {
     protected void waiting() {
         System.out.println("等半小时");
     }
+
+    @Override
+    protected boolean ifEat() {
+        return false;
+    }
 }
